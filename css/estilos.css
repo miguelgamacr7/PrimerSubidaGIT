@@ -1,0 +1,67 @@
+h1 {
+    text-align: center;
+    text-decoration:none;
+    white-space: normal;
+    word-spacing: 1px; 
+    font-variant: small-caps;
+    /* text-transform: uppercase; */
+    text-shadow: 2px 1px 1px blue;
+    border : 3px solid blue;
+    border-radius: 10px;
+    border-left: 0;
+    border-right: 0;
+    margin: 30px auto;
+    width: 50%;
+    padding: 20px;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+
+div.tabla{
+    margin: 20px auto;
+    border: 2px solid red;
+    width:70%;
+    padding: 20px;
+    background: url("/imagenes/Sanji\ y\ Zoro.webp") no-repeat top right red;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: 100%;
+    border-radius: 10px;
+}
+
+div.table , caption{
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+table{
+    width: 100%;
+}
+
+table,th,td {
+    border-collapse: collapse;
+    border: 2px solid blue;
+    padding: 5px;
+    color: red;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background: url("/imagenes/Ace-Sabo-Luffy.htm");
+    background-position: top;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+th{
+    background-color: bisque;
+}
+
+tr:nth-child(even){background-color: #d2d2e9;}
+tr:nth-child(odd){background-color: rgb(145, 106, 114);}
